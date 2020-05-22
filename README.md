@@ -13,10 +13,10 @@ The first image shows the originalimage whereas the second image shows the image
 
 The function follows the Harris Corner Detection Algorithm which can be summed up in through these steps:
 
-1.Find the gradient/differentials of the given grey scale image for **each pixel** using the Sobel's operator
+1. Find the gradient/differentials of the given grey scale image for **each pixel** using the Sobel's operator<p>&npsb
 2. Calculate Ix,Iy and Ixy using the above differentials through *pow()* and *multiply()* functions(The Ix and Iy will be squared)
-3.Apply a **Gaussinan blur** on all the Ix,Iy and Ixy matrices found in the previous steps(Ixg,Iyg and Ixyg)
-4.Mulitiply Ixg^2 with Iyg^2, similarly find Ixyg^2. Find trace by adding Ixg^2 and Iyg^2.
+3. Apply a **Gaussinan blur** on all the Ix,Iy and Ixy matrices found in the previous steps(Ixg,Iyg and Ixyg)
+4. Mulitiply Ixg^2 with Iyg^2, similarly find Ixyg^2. Find trace by adding Ixg^2 and Iyg^2.
 5. Find R=dst=Det-k*(trace)^2
 6. Set a threshhold and check while iterating over each and every pixel
 
