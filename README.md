@@ -4,7 +4,7 @@ This is the C++(openCV) code for a Harris Corner Detector. The code hasn't used 
 
 Original image:           |  The marked corner image: | Marked in colour: |
 :-------------------------:|:-------------------------:-------------------:
-![](house.jpg)             |  ![](corner_gray.PNG)   
+![](house.jpg)             |  ![](corner_gray.PNG)    | ![](color_corner.PNG)|
 
 
 The first image shows the originalimage whereas the second image shows the image after applying Harris Corner Detection Algorithm, All the **detected corners** are displayed as black dots on the corrosponding image. 
