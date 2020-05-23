@@ -6,7 +6,7 @@ Original image:           |  The marked corner image:
 :-------------------------:|:-------------------------:
 ![](house.jpg)             |  ![](corner_gray.PNG)    
 
-The color marked image:
+The color marked image:< /br>
 ![](color_corner.PNG)
 
 
