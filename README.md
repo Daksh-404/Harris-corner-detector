@@ -2,9 +2,12 @@
 This is the C++(openCV) code for a Harris Corner Detector. The code hasn't used cornerHarris() function, instead it has been an attempt to dive into the depth of this function and making it from the one of the most basic filters and operators of openCV. The threshhold and the value of k have been taken according to general standards.
 
 
-Original image:           |  The marked corner image: | Marked in colour: |
-:-------------------------:|:-------------------------:-------------------:
-![](house.jpg)             |  ![](corner_gray.PNG)    | ![](color_corner.PNG)|
+Original image:           |  The marked corner image: 
+:-------------------------:|:-------------------------:
+![](house.jpg)             |  ![](corner_gray.PNG)    
+
+The color marked image:
+![](color_corner.PNG)
 
 
 The first image shows the originalimage whereas the second image shows the image after applying Harris Corner Detection Algorithm, All the **detected corners** are displayed as black dots on the corrosponding image. 
